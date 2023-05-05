@@ -1,0 +1,48 @@
+:root {
+    --large-font: 3rem;
+    --dark: rgb(21, 26, 27);
+}
+
+* {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1vw;
+    color:aqua;
+}
+
+body {
+    background-color: var(--dark);
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: .5vw;
+}
+
+header p{
+    display: inherit;
+    font-size: 1vw;
+}
+
+h1 {
+    font-size: var(--large-font);
+}
+
+.css-card {
+    border: whitesmoke
+}
+
+
+@media screen and (max-width=992px) {
+    
+}
+
+@media screen and (max-width=768px) {
+    
+}
+
+@media screen and (min-width=768px) {
+    
+}
